@@ -64,3 +64,19 @@ console.group("Circles");
 	// console.log("El area del circulo mide: " + areaCirculo + " cm2");
 
 console.groupEnd();
+
+//interaccion con html
+function calcularPerimetroCuadrado() {
+	const input = document.getElementById("inputCuadrado");
+	const value = input.value;
+	
+	const perimetro = perimetroCuadrado(value);
+	alert("El perimetro del cuadrado mide " + perimetro);
+}
+function calcularAreaCuadrado() {
+	const input = document.getElementById("inputCuadrado");
+	const value = input.value;
+
+	const area = areaCuadrado(value);
+	alert("El area del cuadrado mide " + area);
+}
