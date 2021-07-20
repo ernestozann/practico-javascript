@@ -23,6 +23,35 @@
 			<button type="button" onclick="calcularAreaCuadrado()">Calcular el area</button>
 		</form>
 	</section>
+
+	<section>
+		<h2>calcula el area y perimetro de un triangulo</h2>
+		<form>
+			<label for="inputTriangulo1">
+				Escribe la medida de los lados de tu triangulo:
+				(lado 1, lado 2, base, altura)
+			</label>
+			<input id="inputTriangulo1" type="number">
+			<input id="inputTriangulo2" type="number">
+			<input id="inputBase" type="number">
+			<input id="inputAltura" type="number">
+			<button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perimetro</button>
+			<button type="button" onclick="calcularAreaTriangulo()">Calcular el area</button>
+		</form>
+	</section>
+
+	<section>
+		<h2>calcula el area y perimetro de un circulo</h2>
+		<form>
+			<label for="inputCuadrado">
+				Escribe la medida del radio de tu circulo:
+			</label>
+			<input id="inputRadio" type="number">
+			<button type="button" onclick="calcularPerimetroCirculo()">Calcular el perimetro</button>
+			<button type="button" onclick="calcularAreaCirculo()">Calcular el area</button>
+		</form>
+	</section>
+
 	<script src="./figuras.js"></script>
 </body>
 </html>
