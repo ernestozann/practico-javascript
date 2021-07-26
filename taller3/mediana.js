@@ -26,7 +26,10 @@ const numeros = [
 ];
 
 numeros.sort(function(a, b) {
+	//para odenar de menoa a mayor
 	return a - b;
+	//para odenar de mayor a menor
+	//return b - a;
 });
 //reto completado
 
