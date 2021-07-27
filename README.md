@@ -23,3 +23,11 @@ Pasos:
 - 2: Implementar formulas en JavaScript
 - 3: Crear funciones
 - 4: Integrar JS con HTML
+
+## Taller #4: Anlalisis de salarios
+
+Pasos:
+- 1: Definir las formulas
+- 2: Implementar formulas en JavaScript
+- 3: Crear funciones
+- 4: Integrar JS con HTML
